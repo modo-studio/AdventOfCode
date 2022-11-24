@@ -1002,6 +1002,11 @@ const movements = 'forward 1\n' +
   'forward 5'
 
 export function move(movements: string) {
+
+   const steps = movements.split('\n')
+
+
+
   console.log('Let us move!')
   const depth = 23
   const horizontal = 46
